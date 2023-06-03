@@ -8,8 +8,7 @@ import {
   userReducer,
 } from './reducers/userReducer';
 
-export const server = 'http://localhost:4000/api/v1';
-//  jahan bhi host kariyega uska url de dijiyega aur uske baad /api/v1
+export const server = 'https://beamish-wisp-183f23.netlify.app/api/v1';
 
 const store = configureStore({
   reducer: {
