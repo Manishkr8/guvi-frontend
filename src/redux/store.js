@@ -8,7 +8,7 @@ import {
   userReducer,
 } from './reducers/userReducer';
 
-export const server = 'https://beamish-wisp-183f23.netlify.app/api/v1';
+export const server = 'https://venerable-ganache-087774.netlify.app/api/v1';
 
 const store = configureStore({
   reducer: {
